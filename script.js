@@ -32,7 +32,7 @@ document.getElementById('saveImage').addEventListener('click', function() {
 
                 <p style="position: absolute; top: 430px; left: 30px; color:#656565; font-size: 20px; font-weight: bold;width: 90%;">
                 แผนการซ่อมบิลของยูสเซอร์ ${user1} <br>
-                รหัสแผนการสั่งซื้อใหม่หนึ่งแผนสามครั้ง(271936)<br>
+                รหัสแผนการสั่งซื้อใหม่หนึ่งแผนสามครั้ง(531264)<br>
                 ต้องทำการสั่งซื้อสินค้าให้เสร็จภายใน 2 ชั่วโมง
                 </p>     
                 
