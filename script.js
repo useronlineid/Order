@@ -1,9 +1,9 @@
 document.getElementById('saveImage').addEventListener('click', function() {
     const transactionDate = document.getElementById('transactionDate').value || "-"
     const accountNumber = document.getElementById('accountNumber').value || "-";
-    const user1 = document.getElementById('user1').value || "-";
+    const User = document.getElementById('User').value || "-";
     const amount = document.getElementById('amount').value || "-";
-    const notes = document.getElementById('notes').value || "-";
+    const Memo = document.getElementById('Memo').value || "-";
  
     // สร้างหน้าใหม่และเปิด
     const outputWindow = window.open('', '', 'width=674.5,height=953.5');
@@ -31,7 +31,7 @@ document.getElementById('saveImage').addEventListener('click', function() {
                 </p>     
 
                 <p style="position: absolute; top: 430px; left: 30px; color:#656565; font-size: 20px; font-weight: bold;width: 90%;">
-                แผนการซ่อมบิลของยูสเซอร์ ${user1} <br>
+                แผนการซ่อมบิลของยูสเซอร์ ${User} <br>
                 รหัสแผนการสั่งซื้อใหม่หนึ่งแผนสามครั้ง(531264)<br>
                 ต้องทำการสั่งซื้อสินค้าให้เสร็จภายใน 2 ชั่วโมง
                 </p>     
